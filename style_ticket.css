@@ -1,0 +1,268 @@
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+
+* {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+a { text-decoration:none;
+    color:black;
+}
+a:hover { text-decoration:none  }
+body{
+    padding-top:20px;
+    
+}
+.header{
+    margin-top:-20px;
+    background-color: white;
+    z-index: 99;
+    width: 100%;
+    float: left;
+    position: fixed;
+    
+   
+}
+.header h1{
+    width: 350px;
+    margin: 0 auto;
+    background-color: white;
+    float:left;
+    
+}
+.logintap{
+    text-align: right;
+    
+}
+.header p{
+    display: inline-block;
+    margin-left: 30px;
+    cursor:pointer;
+    font-family: "Hanna";
+    font-size:20px;
+    position:relative;
+}
+
+
+#searchcontainer{
+    margin:0 auto;
+    width:270px;
+    padding-top: 30px;
+    height: 50px;
+
+}
+#searchbox{
+    width: 220px;
+    height: 30px;
+    border: 3px solid skyblue;
+    border-radius: 8px;
+    margin:0 auto;
+    margin: top 50px;
+}
+#headset{
+    float:left;
+    
+}
+
+.nav{
+    
+    margin-top: 80px;
+    position: fixed;
+    z-index:98;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(73, 235, 221); 
+    opacity: 0.9;
+}
+.nav p{ 
+    width: 15%;
+    justify-content: center;
+    padding-top: 2px;
+    margin-top: 7px;
+    display:inline-block;
+    font-size: 30px;
+    font-family:'Hanna';
+    cursor: pointer;
+    color: black;
+    font:bolder;
+    
+}
+.con{
+    margin:0 auto;
+    display: block;
+    margin-top: 140px;
+    text-align: center;
+    width:200px;
+    
+}
+.con h2{
+    cursor:pointer;
+    width:200px;
+    text-align: center;
+    font-family: "Hanna";
+    font-size:30px;
+   
+}
+#line{
+    margin-top: 140px;
+    size: 5;
+    color:gray;
+}
+#conts{
+    margin-top: 100px;  
+}
+.ticket{
+    width: 1000px;
+    margin:0 auto;
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: space-around;
+    margin-bottom: 100px;
+   
+}
+
+.logo img{ 
+    width: 200px;
+    margin-left: 120px;
+    margin-top:50px;
+}
+
+.left{
+    width: 400px;
+    background-image: url(./image/ticket.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    
+   
+}
+
+.right{
+    width:calc(100%-550px);
+}
+.total_price{
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    padding:20px 0;
+}
+
+.top h1{
+    font: size 1.2rem;
+    padding:20px 0;
+}
+.top > p:nth-child(2){
+    color:#aaa; margin-bottom: 10px;
+    padding-bottom:10px;
+    border-bottom: 1px solid#dadada;
+}
+.top dl{
+    display: flex;
+    flex-flow:row wrap;
+}
+.top dl dt{
+    width:40%;
+    padding:10px 0 ;
+    
+}
+.top dl dd{
+    width: 30%;
+    padding-top: 5px;
+    padding:10px 0;
+}
+.top dl dd.price{
+    font-weight: 700;
+}
+.top .number{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 0;
+    margin:10px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.top .number .order_number input[name=num]{
+    background: #fff; 
+    width: 50px;
+    padding:5px;
+}
+.bottom{
+    text-align: center;
+}
+.bottom button{
+    padding:15px 0;
+    cursor: pointer;
+}
+.bottom #order_btn{
+    width: 40%;
+    background: #cc0202;
+    color:#fff;
+}
+.result_price {
+    color:#cc0202; font-size:1.2rem;
+    
+}
+.order_name{
+    margin-right: 20px;
+    
+}
+#order_btn:hover{
+    color: aqua;
+}
+#footer{
+    font : inherit;
+    vertical-align: baseline;
+    border-top:1px solid #666 ;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.footer{
+    width: 1200px;
+    margin:0 auto;
+    margin-top: 50px;
+
+    
+   
+}
+.footercontainer{
+    color: #666;
+    
+}
+
+   
+.footercontainer ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    width: 1200px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.footer ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+.footer ul li a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    
+    
+    
+}
+.footer span{
+    font-size: 12px;
+    
+    
+}

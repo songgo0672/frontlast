@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>최신음악</title>
+    <link rel="stylesheet" href="style_sub02.css">
+</head>
+<body>
+    <div class="header">
+        <h1 class="logoname" style =" text-align: center; cursor: pointer;">
+            <a href="./index.html" style="text-decoration : none;color:black"><img src="https://cdn-icons-png.flaticon.com/512/8014/8014930.png"style="width: 40px; height=10px ;">Song Music
+            </a>
+        </h1>
+        <div class="logintap">
+            <p> <a href="/frontend/login.html">로그인</a></p>
+            <p><a href="./ticket.html">이용권구매</a></p>
+            <p><a href="#">고객센터</a></p>
+        </div>
+        <div id="searchcontainer">
+            <img src="./image/headset.jpg" id="headset" style="width: 40px;" >
+            <input type="search" id="searchbox" placeholder="듣고 싶은 음악을 검색하세요!">
+            </input> 
+        </div>
+    </div>
+    <div class="nav">
+        <p>최신음악</p>
+        <p>TOP100</p>
+        <p>장르음악</p>
+        <p>MYMUSIC</p>
+    </div>
+    <div id="chartwarp">
+        <div id="conts_section">
+            <div id="cont_wrap">
+            <div id="conts">
+                <div class="page_header">
+                    <h2 class="title">최신곡</h2>
+                </div>
+                <div class="wrap_tabmenu">
+                    <ul class="list_area">
+                        <li class="first_child"><a href="#" class="link_tab" ><span class="cntt">국내</span></a></li>
+                        <li class="last_child "><a href="#" class="link_tab" ><span class="cntt">해외</span></a></li>
+                    </ul>
+                </div>
+                <div id="songList" >
+        <form id="frm" name="frm">
+            <div class="songmenu">
+                <h3 class="none"></h3>
+                    <div class="wrap_btn_tb top">
+                        <button type="button" title="선택된 곡 듣기" class="button_rbox" onClick=""></span><span class="cnt">듣기</span></button>
+                        <button type="button" title="선택된 곡 담기" class="button_rbox" onClick=""></span><span class="cnt">담기</span></button>
+                        <button type="button" title="선택된 곡 다운로드" class="button_rbox" onClick=""></span><span class="cnt">다운</span></button>
+                        <button type="button" title="선택된 곡 원음다운로드" class="button_rbox" onClick="">></span><span class="cnt"><span class="eng">FLAC</span></span></button>
+                        <button type="button" title="선택된 곡 선물하기" class="button_rbox" onClick=""></span><span class="cnt">선물</span></button>
+                    </div>
+                <table border ="1" style="width:100%">
+                        <colgroup>
+                            <col style="width: 15px">
+                            <col style="width: 62px">
+                            <col style="width: 60px">
+                            <col style="width: 24px">
+                            <col>
+                            <col style="width: 210px">
+                            <col style="width: 111px">
+                            <col style="width: 58px">
+                            <col style="width: 52px">
+                            <col style="width: 52px">
+                            <col style="width: 52px">
+                        </colgroup>
+                        <thead>
+                                <tr>
+                                    <th scope="col">
+                                        <div class="wrap t_right"><input type="checkbox" title="곡 목록 전체 선택" class="input_check d_checkall"></div>
+                                    </th>
+                                    <th scope="col">
+                                        <div class="wrap t_center"><span class="rank">NO</span></div>
+                                    </th>
+                                    <th scope="col">
+                                        <div class="wrap none">앨범이미지</div>
+                                    </th>
+                                    <th scope="col">
+                                        <div class="wrap none">곡 상세가기</div>
+                                    </th>
+                                    <th scope="col">
+                                        <div class="wrap pd_l_12">곡정보</div>
+                                    </th>
+                                    <th scope="col">
+                                        <div class="wrap pd_l_12">앨범</div>
+                                    </th>
+                                    <th scope="col">
+                                        <div class="wrap pd_l_30">좋아요</div>
+                                    </th>
+                                    <th scope="col">
+                                        <div class="wrap t_center">듣기</div>
+                                    </th>
+                                    <th scope="col">
+                                        <div class="wrap t_center">담기</div>
+                                    </th>
+                                    <th scope="col">
+                                        <div class="wrap t_center">다운</div>
+                                    </th>
+                                    <th scope="col">
+                                        <div class="wrap t_center">뮤비</div>
+                                    </th>
+                                </tr>
+                        </thead>					
+                    <tbody>
+                    </tbody>
+                </table>
+        </div>
+    </form>
+</body>
+</html>

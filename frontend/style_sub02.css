@@ -1,0 +1,143 @@
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+
+* {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+body{
+    padding-top:20px;
+    
+}
+.header{
+    margin-top:-20px;
+    background-color: white;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    float: left;
+    
+   
+}
+.header h1{
+    width: 350px;
+    margin: 0 auto;
+    background-color: white;
+    float:left;
+    
+}
+
+.header p{
+    float: right;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-right: 20px;
+    font-family: initial;
+    cursor:pointer;
+    
+}
+.header a{
+   color: inherit;
+}
+
+#searchcontainer{
+    margin:0 auto;
+    width:270px;
+    padding-top: 30px;
+    height: 50px;
+
+}
+#searchbox{
+    width: 220px;
+    height: 30px;
+    border: 3px solid skyblue;
+    border-radius: 8px;
+    margin:0 auto;
+    margin: top 50px;
+}
+#headset{
+    float:left;
+    
+}
+
+.nav{
+    padding-top :65px;
+    position: fixed;
+    z-index:98;
+    width: 100%;
+    float: left;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(73, 235, 221); 
+    opacity: 0.9;
+}
+.nav p{ 
+    width: 250px;
+    justify-content: center;
+    margin:auto;
+    padding-top: 2px;
+    margin-top: 7px;
+    display:inline-block;
+    font-size: 30px;
+    font-family:'Hanna';
+    cursor: pointer;
+    color: black;
+    font:bolder;
+    
+}
+#conts_section{
+    margin-top: 140px;
+    position: relative;
+    width: 1008px;
+}
+#conts{
+    position: relative; 
+    z-index : 10;
+    display: block;
+    width: 1008px;
+    min-height: 800px;
+    padding: 29px 0 88 px;
+    zoom: 1;
+    font-family: "맑은고딕","Malgun Gothic","돋움","Dotum,";
+}
+#chartwarp{
+    margin:0 auto;
+    width: 1008px
+}
+#conts .page_header h2{
+    text-align: center;
+
+}
+.wrap_tabmenu ul{
+    position: relative;
+    width: 1008px;
+    border-top: 1px solid #e3e3e3;
+    border-bottom : 1px solid #e3e3e3;
+    margin-top: 20px;
+}
+.wrap_tabmenu ul li{
+    float:left;
+    background-color:  #fcfcfc;
+    width: 500px;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.wrap_tabmenu ul li .link_tab{
+    margin-bottom: -1px;
+    display: block;
+    position: relative;
+    min-height: 15px;
+    line-height: 1.4;
+    padding: 12px 4px 16px;
+    border-right: 1px solid #fcfcfc;
+    color:#575757;
+    font-size: 16px;
+    text-align:center;
+    text-decoration: none;
+}
+
+
+
+
